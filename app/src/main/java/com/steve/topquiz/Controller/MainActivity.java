@@ -8,6 +8,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -76,6 +77,7 @@ public class MainActivity extends AppCompatActivity {
 
                 // User clicked the button
                 Intent gameActivityIntent = new Intent(MainActivity.this, GameActivity.class);
+                Log.d("Play Button", "Here");
                 startActivityForResult(gameActivityIntent, GAME_ACTIVITY_REQUEST_CODE);
             }
         });
