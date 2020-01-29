@@ -52,4 +52,18 @@
         android:text="Let's play !"
         />
 
+    <Button
+        android:id="@+id/activity_main_Top_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="30dp"
+        android:layout_marginTop="20dp"
+        android:background="#445068"
+        android:textColor="#ffffff"
+        android:alpha="0.75"
+        android:textSize="18dp"
+        android:text="Top Players"
+        />
+
 </LinearLayout>

@@ -17,4 +17,8 @@ public class User {
                 "mFirstname='" + mFirstname + '\'' +
                 '}';
     }
+//item_top
+    //TODO ajouter l'attribut score
+
+
 }

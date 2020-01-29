@@ -1,8 +1,5 @@
 package com.steve.topquiz.Controller;
 
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -14,11 +11,14 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.steve.topquiz.Model.User;
 import com.steve.topquiz.R;
 
 import static java.lang.System.out;
-
+//TODO Gson tuto
+//TODO sauvegarder le user dans les préférences (list) add to lit & sauvegarder à nouveau
 public class MainActivity extends AppCompatActivity {
 
     private TextView mGreetingText;
