@@ -92,6 +92,12 @@ public class MainActivity extends AppCompatActivity {
             mPreferences.edit().putInt(PREF_KEY_SCORE, score).apply();
 
             greetUser();
+            //TODO: Depuis les préférences récupérer le string qui contient la liste des scores
+            //TODO: Convertir ce string en une liste d'objet user
+            //TODO: Ajouter le score User à l'objet mUser (mUser.setTopScore(score))
+            //TODO: Ajouter le user (score L.90) à la liste ci-dessus.
+            //TODO: Convertir cette liste en string
+            //TODO: Ajouter ce string à mPreferences
         }
     }
 
